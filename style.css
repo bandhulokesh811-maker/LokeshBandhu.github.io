@@ -876,6 +876,25 @@ body{
         font-size: 13px;
     }
 
+    .footerbox {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .icon-box,
+    .linkbox,
+    .quick-links {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
     .mytable thead,
     .mytable tr:first-child {
         display: none;
@@ -913,26 +932,7 @@ body{
         color: #555;
         text-transform: capitalize;
     }
-
-    
-
-    .footerbox {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .icon-box,
-    .linkbox,
-    .quick-links {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .icons {
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
-
 /* -------- Extra small screens (Very small mobiles) -------- */
 @media (max-width: 480px) {
 
@@ -1006,4 +1006,5 @@ body{
     }
 
 }
+
 
