@@ -17,8 +17,6 @@ Hi 👋 I'm Lokesh
 
 🌐 Portfolio
 👉 https://bandhulokesh811-makeer.github.io/LokeshBandhu.github.io/
-    Note:- while opening the portfolio set the display to desktop view in mobiles.
-
 
 📫 Contact
 - Email: bandhulokesh811@gmail.com
