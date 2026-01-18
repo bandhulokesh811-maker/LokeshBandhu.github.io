@@ -876,7 +876,7 @@ body{
         font-size: 13px;
     }
 
-        .mytable thead,
+    .mytable thead,
     .mytable tr:first-child {
         display: none;
     }
@@ -1006,3 +1006,4 @@ body{
     }
 
 }
+
