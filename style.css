@@ -872,9 +872,7 @@ body{
         width: 20%;
     }
 
-    .mytable {
-        font-size: 13px;
-    }
+    
 
     .footerbox {
         flex-direction: column;
@@ -1004,6 +1002,7 @@ body{
     }
 
 }
+
 
 
 
