@@ -925,8 +925,8 @@ body{
         content: attr(data-label) ": ";
         font-weight: 600;
         color: #555;
-        display: inline-block;
-        margin-right: 6px;
+        display: block;
+        margin-bottom: 2px;
     }
 }
 /* -------- Extra small screens (Very small mobiles) -------- */
@@ -1002,6 +1002,7 @@ body{
     }
 
 }
+
 
 
 
