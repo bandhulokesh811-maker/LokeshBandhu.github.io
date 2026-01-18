@@ -895,7 +895,7 @@ body{
 
 @media (max-width: 768px) {
 
-    .mytable thead,
+    
     .mytable tr:first-child {
         display: none;
     }
@@ -909,28 +909,26 @@ body{
     }
 
     .mytable tr {
-        margin-bottom: 15px;
+        margin-bottom: 18px;
         border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 10px;
+        border-radius: 12px;
+        padding: 12px;
         background-color: #fff;
     }
 
     .mytable td {
         border: none;
-        padding-left: 50%;
-        position: relative;
-        margin-bottom: 8px;
+        padding: 6px 0;
         text-align: left;
+        font-size: 15px;
     }
 
     .mytable td::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 10px;
+        content: attr(data-label) ": ";
         font-weight: 600;
         color: #555;
-        text-transform: capitalize;
+        display: inline-block;
+        margin-right: 6px;
     }
 }
 /* -------- Extra small screens (Very small mobiles) -------- */
@@ -1006,5 +1004,6 @@ body{
     }
 
 }
+
 
 
