@@ -1,3 +1,3 @@
-function disabled(){
-  window.confirm("Temporarly Projects are disabled");
+function Alert(){
+    window.alert("Temporarily Project is disabled, sorry for the inconvenience.");
 }
